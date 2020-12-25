@@ -1,0 +1,31 @@
+{% extends "common/layout.html" %}
+
+{% block title %} Page 404 {% endblock %} 
+
+{% block content %}
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card card-profile">
+                <div class="card-body">
+                    <h6 class="card-category text-gray">Error</h6>
+                    <h1 class="card-title" style="text-align: center;">
+                        '보여줘' 혹은'읽어줘'로 다시 말해주세요.
+                    </h1>
+                    <div style="text-align: center;">
+                        <img src = "{{url_for('static',filename='bap.png')}}">
+                    </div> 
+                    <div class="row">
+                        <div class="col-md-4 ml-auto mr-auto">
+                          <div class="row">
+                            <div class="col-md-12" style="text-align: center;">
+                                <a href="{{ url_for('root') }}" class="btn btn-primary btn-block">Home</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock content %}

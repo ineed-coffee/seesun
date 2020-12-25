@@ -1,0 +1,165 @@
+{% extends "common/layout.html" %}
+{% block content %}
+<div class="row">
+<div class="col-md-4">
+    <div class="card card-user">
+      <div class="card-body">
+        <p class="card-text">
+          <div class="author">
+            <div class="block block-one"></div>
+            <div class="block block-two"></div>
+            <div class="block block-three"></div>
+            <div class="block block-four"></div>
+            <a href="javascript:void(0)">
+              <img class="avatar" src="{{url_for('static',filename='1.jpg')}}" alt="...">
+              <h5 class="title">JINWON KIM</h5>
+            </a>
+            <p class="description">
+              조장/TEXT
+            </p>
+          </div>
+        </p>
+        <div class="card-description">
+          I'm 조장
+        </div>
+      </div>
+      <div class="card-footer">
+        <div class="button-container">
+          <button onclick= "location.href='https://github.com/jw0831'" class="btn btn-icon btn-round btn-git">
+            <i class="fab fa-git"></i>
+          </button>
+          <button onclick= "location.href='linkedin.com/in/jinwon0831kim'" class="btn btn-icon btn-round btn-git">
+            <i class="fab fa-linkedin"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card card-user">
+      <div class="card-body">
+        <p class="card-text">
+          <div class="author">
+            <div class="block block-one"></div>
+            <div class="block block-two"></div>
+            <div class="block block-three"></div>
+            <div class="block block-four"></div>
+            <a href="javascript:void(0)">
+              <img class="avatar" src="{{url_for('static',filename='2.jpg')}}" alt="...">
+              <h5 class="title">CHAEJEONG MIN</h5>
+            </a>
+            <p class="description">
+              팀원/TEXT
+            </p>
+          </div>
+        </p>
+        <div class="card-description">
+          I'm 멘토..?
+        </div>
+      </div>
+      <div class="card-footer">
+        <div class="button-container">
+          <button onclick= "location.href='https://github.com/chloecmin'" class="btn btn-icon btn-round btn-git">
+            <i class="fab fa-git"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card card-user">
+      <div class="card-body">
+        <p class="card-text">
+          <div class="author">
+            <div class="block block-one"></div>
+            <div class="block block-two"></div>
+            <div class="block block-three"></div>
+            <div class="block block-four"></div>
+            <a href="javascript:void(0)">
+              <img class="avatar" src="{{url_for('static',filename='3.jpg')}}" alt="...">
+              <h5 class="title">CHANJU LEE</h5>
+            </a>
+            <p class="description">
+              팀원/TEXT
+            </p>
+          </div>
+        </p>
+        <div class="card-description">
+          I'm 척척석사
+        </div>
+      </div>
+      <div class="card-footer">
+        <div class="button-container">
+          <button onclick= "location.href='https://github.com/cjlee0217'" class="btn btn-icon btn-round btn-git">
+            <i class="fab fa-git"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-6">
+    <div class="card card-user">
+      <div class="card-body">
+        <p class="card-text">
+          <div class="author">
+            <div class="block block-one"></div>
+            <div class="block block-two"></div>
+            <div class="block block-three"></div>
+            <div class="block block-four"></div>
+            <a href="javascript:void(0)">
+              <img class="avatar" src="{{url_for('static',filename='4.jpeg')}}" alt="...">
+              <h5 class="title">DONGJAE LEE</h5>
+            </a>
+            <p class="description">
+              팀원/IMAGE
+            </p>
+          </div>
+        </p>
+        <div class="card-description">
+          I'm 욜로장인
+        </div>
+      </div>
+      <div class="card-footer">
+        <div class="button-container">
+          <button onclick= "location.href='https://github.com/ineed-coffee?tab=repositories'" class="btn btn-icon btn-round btn-git">
+            <i class="fab fa-git"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="card card-user">
+      <div class="card-body">
+        <p class="card-text">
+          <div class="author">
+            <div class="block block-one"></div>
+            <div class="block block-two"></div>
+            <div class="block block-three"></div>
+            <div class="block block-four"></div>
+            <a href="javascript:void(0)">
+              <img class="avatar" src="{{url_for('static',filename='5.jpeg')}}" alt="...">
+              <h5 class="title">HEEWON PARK</h5>
+            </a>
+            <p class="description">
+              팀원/IMAGE
+            </p>
+          </div>
+        </p>
+        <div class="card-description">
+          I'm 만든사람
+        </div>
+      </div>
+      <div class="card-footer">
+        <div class="button-container">
+          <button onclick= "location.href='https://github.com/heewonp'" class="btn btn-icon btn-round btn-git">
+            <i class="fab fa-git"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock content %}

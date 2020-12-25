@@ -1,0 +1,67 @@
+
+{% extends "common/layout.html" %}
+{% block content %}
+<div class="main-panel">
+  <div class="content">
+    <div class="row">
+      <div class="col-12">
+        <center>
+          <div id="camera" class="camera">
+            <img src="{{ url_for('video_feed') }}" alt="video feed">
+          </div>
+          <div style="font-size: 40px;" class="lodaing">
+            <a href="{{ url_for('img_capture') }}" alt = "이미지">
+              <i class="tim-icons icon-palette"></i>
+            </a>
+            <a href="{{ url_for('text_capture') }}" alt ="텍스트">
+              <i class="tim-icons icon-single-copy-04"></i>
+            </a>
+          </div>
+        </center>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock content %}
+{% block javascripts %}
+<script>
+  $('html').click(function(e){ 
+    if (!$(e.target).hasClass("camera")) {
+       location.href = "{{ url_for('start_speak') }}";
+       setTimeout(function(){
+          loding();
+        },3000);
+      } 
+  });
+  function loding(){
+    //화면의 높이와 너비를 구합니다.
+    var maskHeight = $(document).height();
+    var maskWidth  = window.document.body.clientWidth;
+     
+    //화면에 출력할 마스크를 설정해줍니다.
+    var mask       ="<div id='mask' style='position:absolute; z-index:9000; background-color:#000000; display:none; left:0; top:0;'></div>";
+    var loadingImg ='';
+    loadingImg +="<div id='loadingImg'> <img src='{{ url_for('static',filename='Spinner.gif')}}' style='position: absolute; display: block; top:50%; left:50%; margin: 0px auto;'/></div>";
+
+    //화면에 레이어 추가
+    $('body')
+        .append(mask)
+        .append(loadingImg)
+ 
+    //마스크의 높이와 너비를 화면 것으로 만들어 전체 화면을 채웁니다.
+    $('#mask').css({
+            'width' : maskWidth,
+            'height': maskHeight,
+            'opacity' :'0.3'
+    });
+    //마스크 표시
+     $('#mask').show();
+     //로딩중 이미지 표시
+    $('#loadingImg').show();
+  }
+
+$('.tim-icons.icon-palette, .tim-icons.icon-single-copy-04').click(function(){
+  loding();
+  });
+</script>
+{% endblock javascripts %}
