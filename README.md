@@ -47,7 +47,7 @@ Integrative-AI service project from _Deep Learning based AI engineering course_ 
 - did that
 - did those
 
-<img src="d" alt="mem1" width="70" height="60"/> [ineed-coffee](https://github.com/ineed-coffee)
+<img src="https://avatars2.githubusercontent.com/u/57827670?s=400&u=d51d9f14c9bde91f7e55b7087cffdc0f93b726e1&v=4" alt="mem1" width="70" height="60"/> [ineed-coffee](https://github.com/ineed-coffee)
 
 - did this
 - did that
@@ -90,6 +90,14 @@ writing..
 ## 4. Service Architecture <a id="idx4"></a>
 
 writing..
+
+<p align="center">
+	<img src="static/arch.png" alt="architecture" width="600" height="375"/>
+	<img src="static/flow.png" alt="flow" width="650" height="250"/> 
+</p>
+
+
+
 
 ​	
 
