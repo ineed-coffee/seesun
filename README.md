@@ -2,6 +2,10 @@
 
 멀티캠퍼스 딥러닝 기반 AI 엔지니어링 과정에서 파이널 프로젝트로 진행한 복합 AI 서비스 시선입니다. (우수상 :star: ​) 
 
+<p align="center">
+<img src="static/seesuntext.gif" alt="innovation" width="400" height="234"/>
+<img src="static/seesunobj.gif" alt="innovation" width="400" height="234"/>
+</p>
 
 
 ### Table of contents 
