@@ -41,7 +41,35 @@ Integrative-AI service project from _Deep Learning based AI engineering course_ 
 
 ## 2. Role <a id="idx2"></a>
 
-writing..
+<img src="https://avatars1.githubusercontent.com/u/46684150?s=400&u=8c807418399048f8df2f14fce271f7f0f1fc7226&v=4" alt="mem1" width="70" height="60"/> [jw0831](https://github.com/jw0831) 
+
+- did this
+- did that
+- did those
+
+<img src="d" alt="mem1" width="70" height="60"/> [ineed-coffee](https://github.com/ineed-coffee)
+
+- did this
+- did that
+- did those
+
+<img src="https://avatars0.githubusercontent.com/u/59459751?s=400&v=4" alt="mem1" width="70" height="60"/> [heewonp](https://github.com/heewonp) 
+
+- did this
+- did that
+- did those
+
+<img src="https://avatars1.githubusercontent.com/u/70255515?s=400&v=4" alt="mem1" width="70" height="60"/> [cjlee0217](https://github.com/cjlee0217)
+
+- did this
+- did that
+- did those
+
+<img src="https://avatars2.githubusercontent.com/u/32133444?s=400&u=d536da64f1f3d48c84b108622edc5d043a1f317a&v=4" alt="mem1" width="70" height="60"/> [chloecmin](https://github.com/chloecmin)
+
+- did this
+- did that
+- did those
 
  	
 
