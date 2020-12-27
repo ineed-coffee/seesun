@@ -79,7 +79,7 @@ Integrative-AI service project from _Deep Learning based AI engineering course_ 
 - Text detection modeling ( pytesseract)
 - Text recognition modeling ( pytesseract)
 - Text-to-speech module work (Clova open API)
-- Video-stream module work (flask)
+- Video-stream module work (Flask)
 - Module QA
 
  	
@@ -90,7 +90,7 @@ Integrative-AI service project from _Deep Learning based AI engineering course_ 
 
 ## 3. Skills & Process <a id="idx3"></a>
 
-writing..
+writing..​
 
 ​	
 
@@ -101,9 +101,10 @@ writing..
 ## 4. Service Architecture <a id="idx4"></a>
 
 <p align="center">
-	<img src="static/arch.png" alt="architecture" width="600" height="375"/>
+	<img src="static/arch.png" alt="architecture" width="912" height="576"/>
 	<img src="static/flow.png" alt="flow" width="650" height="250"/> 
 </p>
+
 ​	
 
 ---
