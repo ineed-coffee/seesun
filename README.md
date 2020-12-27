@@ -90,7 +90,31 @@ Integrative-AI service project from _Deep Learning based AI engineering course_ 
 
 ## 3. Skills & Process <a id="idx3"></a>
 
-writing..​
+### Project skills 
+
+__1. Language & Tool__ 
+
+	- Python 3.8 
+	- Visual Studio Code
+	- PyCharm
+
+__2. Object detection model__ 
+
+ - Darknet framework :link: [Link](https://github.com/AlexeyAB/darknet)
+ - Fine tuning from YoloV3 pretrained weights
+ - opencv-dnn framework (4.4.0)
+
+__3. Text recognition model__ 
+
+	- pytesseract (0.3.6)
+	- deskew (0.10.3)
+	- opencv-python (4.4.0)
+
+### Development process 
+
+2020.11.24 ~ 2020.12.23 
+
+[WBS in details](https://drive.google.com/file/d/1L0GKjlu0fwBe_UINzBbXqwEl1mUZBACm/view?usp=sharing) 
 
 ​	
 
@@ -101,9 +125,10 @@ writing..​
 ## 4. Service Architecture <a id="idx4"></a>
 
 <p align="center">
-	<img src="static/arch.png" alt="architecture" width="912" height="576"/>
+	<img src="static/arch.png" alt="architecture" width="869" height="549"/>
 	<img src="static/flow.png" alt="flow" width="650" height="250"/> 
 </p>
+
 
 ​	
 
