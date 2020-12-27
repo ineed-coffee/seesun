@@ -43,33 +43,44 @@ Integrative-AI service project from _Deep Learning based AI engineering course_ 
 
 <img src="https://avatars1.githubusercontent.com/u/46684150?s=400&u=8c807418399048f8df2f14fce271f7f0f1fc7226&v=4" alt="mem1" width="70" height="60"/> [jw0831](https://github.com/jw0831) 
 
-- did this
-- did that
-- did those
+- Prior research review (OCR, STR, CRAFT)
+- Text detection modeling ( pytesseract)
+- Text recognition modeling ( pytesseract)
+- Text-image preprocessing (OpenCV , deskew)
+- Support modularization
+- Translator modeling (Seq2Seq , in progress)
 
 <img src="https://avatars2.githubusercontent.com/u/57827670?s=400&u=d51d9f14c9bde91f7e55b7087cffdc0f93b726e1&v=4" alt="mem1" width="70" height="60"/> [ineed-coffee](https://github.com/ineed-coffee)
 
-- did this
-- did that
-- did those
+- Image data collection (AI HUB , Roboflow.ai , Google open image dataset)
+- Define custom category & Image annotation work 
+- Custom object detection modeling (YOLOv3 , darknet)
+- Modularization & Maintenance
+- Speech-to-text module work (Kakao open API)
+- Support web application implementation (Flask)
 
 <img src="https://avatars0.githubusercontent.com/u/59459751?s=400&v=4" alt="mem1" width="70" height="60"/> [heewonp](https://github.com/heewonp) 
 
-- did this
-- did that
-- did those
+- Image data collection (AI HUB , Roboflow.ai , Google open image dataset)
+- Define custom category & Image annotation work 
+- Custom object detection modeling (YOLOv3 , darknet)
+- Web application implementation (Flask)
 
 <img src="https://avatars1.githubusercontent.com/u/70255515?s=400&v=4" alt="mem1" width="70" height="60"/> [cjlee0217](https://github.com/cjlee0217)
 
-- did this
-- did that
-- did those
+- Prior research review (OCR, STR, EAST, CRAFT)
+- Text detection modeling ( pytesseract)
+- Text recognition modeling ( pytesseract)
+- Text-image preprocessing (OpenCV , deskew)
+- Translator modeling (Seq2Seq , in progress)
 
 <img src="https://avatars2.githubusercontent.com/u/32133444?s=400&u=d536da64f1f3d48c84b108622edc5d043a1f317a&v=4" alt="mem1" width="70" height="60"/> [chloecmin](https://github.com/chloecmin)
 
-- did this
-- did that
-- did those
+- Text detection modeling ( pytesseract)
+- Text recognition modeling ( pytesseract)
+- Text-to-speech module work (Clova open API)
+- Video-stream module work (flask)
+- Module QA
 
  	
 
@@ -89,16 +100,10 @@ writing..
 
 ## 4. Service Architecture <a id="idx4"></a>
 
-writing..
-
 <p align="center">
 	<img src="static/arch.png" alt="architecture" width="600" height="375"/>
 	<img src="static/flow.png" alt="flow" width="650" height="250"/> 
 </p>
-
-
-
-
 ​	
 
 ---
