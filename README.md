@@ -94,21 +94,22 @@ Integrative-AI service project from _Deep Learning based AI engineering course_ 
 
 __1. Language & Tool__ 
 
-	- Python 3.8 
-	- Visual Studio Code
-	- PyCharm
+- Python 3.8 
+- Visual Studio Code
+- PyCharm
+
 
 __2. Object detection model__ 
 
- - Darknet framework :link: [Link](https://github.com/AlexeyAB/darknet)
- - Fine tuning from YoloV3 pretrained weights
- - opencv-dnn framework (4.4.0)
+- Darknet framework :link: [Link](https://github.com/AlexeyAB/darknet)
+- Fine tuning from YoloV3 pretrained weights
+- opencv-dnn framework (4.4.0)
 
 __3. Text recognition model__ 
 
-	- pytesseract (0.3.6)
-	- deskew (0.10.3)
-	- opencv-python (4.4.0)
+- pytesseract (0.3.6)
+- deskew (0.10.3)
+- opencv-python (4.4.0)
 
 ### Development process 
 
