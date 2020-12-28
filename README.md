@@ -61,9 +61,11 @@ Integrative-AI service project from _Deep Learning based AI engineering course_ 
 
 <img src="https://avatars0.githubusercontent.com/u/59459751?s=400&v=4" alt="mem1" width="70" height="60"/> [heewonp](https://github.com/heewonp) 
 
+- Prior research review (CRAFT)
 - Image data collection (AI HUB , Roboflow.ai , Google open image dataset)
 - Define custom category & Image annotation work 
 - Custom object detection modeling (YOLOv3 , darknet)
+- Video-stream module work (Flask)
 - Web application implementation (Flask)
 
 <img src="https://avatars1.githubusercontent.com/u/70255515?s=400&v=4" alt="mem1" width="70" height="60"/> [cjlee0217](https://github.com/cjlee0217)
@@ -139,7 +141,46 @@ __3. Text recognition model__
 
 ## 5. Main Function <a id="idx5"></a>
 
-writing..
+### __【Show】 what's in front of you__ 
+
+- by asking with specific keyword "보여줘" , our custom YOLO model will tell you what's in front of you
+
+​	
+
+__Recognizable object table__ 
+
+|    __    |     __     |          __           |         __          |      __      |
+| :------: | :--------: | :-------------------: | :-----------------: | :----------: |
+| 1000 won | 10000 won  |         desk          |        chair        |   sunglass   |
+|  bottle  |  umbrella  |          toy          |      chopstick      |    biker     |
+|   car    | motorcycle |          cat          |         dog         |    person    |
+|  truck   |    bus     | traffic light (green) | traffic light (red) | traffic sign |
+
+ 	
+
+__Example__ 
+
+```python
+Out : "There are 1 1000won , 1 cat , and 1 dog in front of you"
+```
+
+<img src="static/show_result.png" /> 
+
+
+
+### __【Read】 what's in front of you__ 
+
+- by asking with specific keyword "읽어줘" , our pytesseract model will read the recognized text in front of you
+
+
+
+__Example__ 
+
+```python
+Out : "2020년 하반기 4차산업혁명 선도인력 양성 훈련 입과를 환영합니다 multicampus"
+```
+
+<img src="static/text_result.png"/> 
 
 ​	
 
