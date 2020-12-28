@@ -61,7 +61,7 @@ Integrative-AI service project from _Deep Learning based AI engineering course_ 
 
 <img src="https://avatars0.githubusercontent.com/u/59459751?s=400&v=4" alt="mem1" width="70" height="60"/> [heewonp](https://github.com/heewonp) 
 
-- Prior research review (CRAFT)
+- Prior research review (CRAFT, YOLOv5 from PyTorch)
 - Image data collection (AI HUB , Roboflow.ai , Google open image dataset)
 - Define custom category & Image annotation work 
 - Custom object detection modeling (YOLOv3 , darknet)
@@ -164,7 +164,7 @@ __Example__
 Out : "There are 1 1000won , 1 cat , and 1 dog in front of you"
 ```
 
-<img src="static/show_result.png" /> 
+<img src="static/show_result.PNG" /> 
 
 
 
@@ -180,7 +180,7 @@ __Example__
 Out : "2020년 하반기 4차산업혁명 선도인력 양성 훈련 입과를 환영합니다 multicampus"
 ```
 
-<img src="static/text_result.png"/> 
+<img src="static/text_result.PNG"/> 
 
 ​	
 
