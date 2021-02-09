@@ -1,8 +1,8 @@
 {
-    "app_key":"215fa155de3165c2c2b8795cd354e209",
-    "access token":"r9MQAHM8i0_49HObRUFzKGvZcfBKXuc9Dyf_LgorDSAAAAF1_Q-udQ",
-    "refresh token":"p8zQHDzxIGhKPk_wF8x9C2jVjFtsAd-R_bUXuAorDSAAAAF1_Q-udA",
+    "app_key":"put your api key here",
+    "access token":"put your api access token here",
+    "refresh token":"put your api refresh token here",
     "token_type":"bearer",
-    "expires_in":21599,
-    "refresh_token_expires_in":5183999
+    "expires_in":"",
+    "refresh_token_expires_in":""
 }
