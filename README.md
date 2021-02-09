@@ -33,7 +33,7 @@ Integrative-AI service project from _Deep Learning based AI engineering course_ 
 
 
 
-	## [시연 영상(simulation video)](https://drive.google.com/file/d/18GEFLZXRDWiA-2HufVHxsTNec0NyiyJc/view?usp=sharing) <a><img src="https://media.giphy.com/media/mFknMI76h9WHmuukXw/giphy.gif" width="70px"></a> 
+## [시연 영상(simulation video)](https://drive.google.com/file/d/18GEFLZXRDWiA-2HufVHxsTNec0NyiyJc/view?usp=sharing) <a><img src="https://media.giphy.com/media/mFknMI76h9WHmuukXw/giphy.gif" width="70px"></a> 
 
 ---
 
