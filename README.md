@@ -1,4 +1,4 @@
-# <img src="static/innovation.svg" alt="innovation" width="50" height="50"/> Seesun (시선)
+# <img src="README.assets/innovation.svg" alt="innovation" width="50" height="50"/> Seesun (시선)
 
 멀티캠퍼스 딥러닝 기반 AI 엔지니어링 과정에서 파이널 프로젝트로 진행한 복합 AI 서비스 시선입니다. (우수상 :star: ​) 
 
@@ -14,7 +14,7 @@ Integrative-AI service project from _Deep Learning based AI engineering course_ 
 3. :mag_right: [Skills & Process](#idx3)
 4. :open_file_folder: [Service Architecture](#idx4)
 5. :outbox_tray: [Main Function](#idx5)
-6. :round_pushpin: [Getting Started](#idx6)
+6. :round_pushpin: [Result Report Summary](#idx6)
 
 ---
 
@@ -27,13 +27,13 @@ Integrative-AI service project from _Deep Learning based AI engineering course_ 
 현재 음성을 통한 "보여줘" , "읽어줘" 와 같은 기능을 지원하며 웹 어플리케이션 형태로 구현하였습니다.
 
 <p align="center">
-<img src="static/seesuntext.gif" alt="innovation" width="400" height="234"/>
-<img src="static/seesunobj.gif" alt="innovation" width="400" height="234"/>
+<img src="README.assets/seesuntext.gif" alt="innovation" width="400" height="234"/>
+<img src="README.assets/seesunobj.gif" alt="innovation" width="400" height="234"/>
 </p>
 
 
 
-​	
+	## [시연 영상(simulation video)](https://drive.google.com/file/d/18GEFLZXRDWiA-2HufVHxsTNec0NyiyJc/view?usp=sharing) <a><img src="https://media.giphy.com/media/mFknMI76h9WHmuukXw/giphy.gif" width="70px"></a> 
 
 ---
 
@@ -128,9 +128,10 @@ __3. Text recognition model__
 ## 4. Service Architecture <a id="idx4"></a>
 
 <p align="center">
-	<img src="static/arch.png" alt="architecture" width="869" height="549"/>
-	<img src="static/flow.png" alt="flow" width="650" height="250"/> 
+	<img src="README.assets/arch.png" alt="architecture" width="869" height="549"/>
+	<img src="README.assets/flow.png" alt="flow" width="650" height="250"/> 
 </p>
+
 
 
 ​	
@@ -164,7 +165,7 @@ __Example__
 Out : "There are 1 1000won , 1 cat , and 1 dog in front of you"
 ```
 
-<img src="static/show_result.PNG" /> 
+<img src="README.assets/show_result.PNG" /> 
 
 
 
@@ -180,7 +181,7 @@ __Example__
 Out : "2020년 하반기 4차산업혁명 선도인력 양성 훈련 입과를 환영합니다 multicampus"
 ```
 
-<img src="static/text_result.PNG"/> 
+<img src="README.assets/text_result.PNG"/> 
 
 ​	
 
@@ -188,9 +189,11 @@ Out : "2020년 하반기 4차산업혁명 선도인력 양성 훈련 입과를 �
 
 ​	
 
-## 6. Getting Started <a id="idx6"></a>
+## 6. Result Report Summary <a id="idx6"></a>
 
-writing..
+## 프로젝트 주제 선정 배경 및 구상
+
+
 
 ​	
 
