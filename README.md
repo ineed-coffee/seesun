@@ -31,8 +31,8 @@ Integrative-AI service project from _Deep Learning based AI engineering course_ 
 
 
 <p align="center">
-<img src="README.assets/슬라이드4.PNG" alt="innovation" width="450" />
-<img src="README.assets/슬라이드5.PNG" alt="innovation" width="450" />
+<img src="README.assets/슬라이드4.PNG" alt="innovation" width="425" />
+<img src="README.assets/슬라이드5.PNG" alt="innovation" width="425" />
 </p>
 
 초기 구상 단계에서 크게 2가지 기능으로 서비스 개발을 목표로 하였으며 음성을 통해 서비스를 이용할 수 있도록 구상하였습니다.
