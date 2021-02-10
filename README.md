@@ -16,7 +16,7 @@ Integrative-AI service project from _Deep Learning based AI engineering course_ 
 3. :mag_right: [Skills & Process](#idx3)
 4. :open_file_folder: [Service Architecture](#idx4)
 5. :outbox_tray: [Main Function](#idx5)
-6. :round_pushpin: [Object detection model details (what I've contributed)](#idx6)
+6. :round_pushpin: [Details of my role](#idx6)
 
 ---
 
@@ -24,37 +24,30 @@ Integrative-AI service project from _Deep Learning based AI engineering course_ 
 
 ## 1. Overview <a id="idx1"></a>
 
-#### <img src="README.assets/innovation.svg" alt="innovation" width="30"/>개발 배경과 구상
+#### <img src="README.assets/innovation.svg" alt="innovation" width="30"/>개발 배경
 
 기술의 발전이 항상 우리가 살아가는데 이롭게만 작용하지는 않습니다. 4차 산업혁명에 대한 관심과 개발이 해마다 빠르게 진행됨에 따라 이러한 기술로부터 소외된 계층, 단절된 사용자가 발생하기도 합니다. 이러한 이유로 __시선 서비스__ 는 전맹, 약맥 및 시각적으로 불편하신 분들의 새로운 눈이 되어 세상을 밝혀주고자 진행하게 된 __복합 AI 서비스__ 입니다.
-
-
 
 <p align="center">
 <img src="README.assets/슬라이드4.PNG" alt="innovation" width="415" />
 <img src="README.assets/슬라이드5.PNG" alt="innovation" width="415" />
 </p>
 
+#### <img src="README.assets/innovation.svg" alt="innovation" width="30"/>초기 구상
+
 초기 구상 단계에서 크게 2가지 기능으로 서비스 개발을 목표로 하였으며 음성을 통해 서비스를 이용할 수 있도록 구상하였습니다.
 > __보여줘__ : YOLO v3 활용 객체 탐지 모델 
 >
 > __읽어줘__ : pytesseract 활용 문자 인식 모델
-
 
 <p align="center">
 <img src="README.assets/슬라이드9.PNG" alt="innovation" width="415" />
 <img src="README.assets/슬라이드10.PNG" alt="innovation" width="415" />
 </p>
 
+#### <img src="README.assets/innovation.svg" alt="innovation" width="30"/>최종 구현
+최종 서비스 구현은 flask 기반 웹 어플리케이션 형태로 구현하였으며, 음성을 통해 `보여줘` , `읽어줘` 와 같은 명령 전달을 할 수 있습니다.
 
-
-현재 음성을 통한 "보여줘" , "읽어줘" 와 같은 기능을 지원하며 웹 어플리케이션 형태로 구현하였습니다.
-
-
-
-
-
-### d
 <p align="center">
 <img src="README.assets/seesuntext.gif" alt="innovation" width="415"/>
 <img src="README.assets/seesunobj.gif" alt="innovation" width="415"/>
@@ -80,13 +73,15 @@ Integrative-AI service project from _Deep Learning based AI engineering course_ 
 - Translator modeling (Seq2Seq , in progress)
 
 <img src="https://avatars2.githubusercontent.com/u/57827670?s=400&u=d51d9f14c9bde91f7e55b7087cffdc0f93b726e1&v=4" alt="mem1" width="70" height="60"/> [__ineed-coffee(작성자)__](https://github.com/ineed-coffee) 
-
+> #### For details, [details of my role](#idx6)
 - __Image data collection (AI HUB , Roboflow.ai , Google open image dataset)__ 
 - __Define custom category & Image annotation work__ 
 - __Custom object detection modeling (YOLOv3 , darknet)__ 
 - __Modularization & Maintenance__ 
 - __Speech-to-text module work (Kakao open API)__ 
 - __Support web application implementation (Flask)__ 
+
+
 
 <img src="https://avatars0.githubusercontent.com/u/59459751?s=400&v=4" alt="mem1" width="70" height="60"/> [heewonp](https://github.com/heewonp) 
 
@@ -218,10 +213,36 @@ Out : "2020년 하반기 4차산업혁명 선도인력 양성 훈련 입과를 �
 
 ​	
 
-## 6. Object detection model details (what I've contributed) <a id="idx6"></a>
+## 6. Details of my role <a id="idx6"></a>
 
-## 프로젝트 주제 선정 배경 및 구상
+#### <img src="README.assets/innovation.svg" alt="innovation" width="30"/>__Define custom dataset__ 
 
+> 시각적으로 불편함을 겪는 사용자의 입장에서 자주 찾게되는 물체 20개를 선정.
+>
+> 수집이 불가한 항목은 직접 샘플 촬영을 진행하여 [labelImg](https://github.com/tzutalin/labelImg) 오픈 소스를 통해 annotation 작업 수행.
+>
+> 수집 가능한 항목은 [AI hub](https://www.aihub.or.kr/aidata/136) , [roboflow.ai](https://public.roboflow.com/object-detection/self-driving-car) , [google open image dataset](https://storage.googleapis.com/openimages/web/download.html) 로부터 분할 수집을 진행.
+
+![s35](README.assets/슬라이드35.PNG) 
+
+> 수집 결과
+> 
+
+![s36](README.assets/슬라이드36.PNG) 
+
+#### <img src="README.assets/innovation.svg" alt="innovation" width="30"/>__Choosing proper framework__ 
+
+> fine-tuning 진행에 앞서 yolo v3 모델 활용을 위한 각 YOLO-framework 비교 및 선정.
+
+![s38](README.assets/슬라이드38.PNG) 
+
+> 최종 선정은 [AlexeyAB](https://github.com/AlexeyAB/darknet/commits?author=AlexeyAB)의 [Darknet](https://github.com/AlexeyAB/darknet) framework 를 로컬환경에 빌드하여 커스텀 데이터셋으로부터 전이학습을 진행.
+
+![s39](README.assets/슬라이드39.PNG) 
+
+> 최종 선\.
+
+![s40](README.assets/슬라이드40.PNG) 
 
 
 ​	
