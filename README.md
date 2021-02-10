@@ -240,12 +240,110 @@ Out : "2020년 하반기 4차산업혁명 선도인력 양성 훈련 입과를 �
 
 ![s39](README.assets/슬라이드39.PNG) 
 
-> 최종 선\.
+#### <img src="README.assets/innovation.svg" alt="innovation" width="30"/>__Training result__ 
+> __Train environment__ 
+>
+> `Windows 10` 
+>
+> `Visual studio 2017` 
+>
+> `CUDA 10.1` 
+>
+> `cuDNN 8.0.5` 
+>
+> `GeForce RTX 2080 SUPER` (two)
+>
+> - Image size = 416 X 416
+>
+> - batch=64
+> - subdivisions=32
+> - iterations = 60200
+> - learning rate = 0.0005 (using 2 GPU)
 
 ![s40](README.assets/슬라이드40.PNG) 
+> - 0.8 수준의 Avg loss 와 45% 의 최종 mAP 성능을 확인할 수 있었음
+> - custom weights file [download](https://drive.google.com/file/d/1lQjvhPUiNVBY9XjWENvcCETSkYTYgdiR/view?usp=sharing)  
+> 
+***
+#### <img src="README.assets/innovation.svg" alt="innovation" width="30"/>__Modularization__ 
 
+> 두 인식 모델 및 음성 입/출력 모듈을 별도로 작성하여 PyPi 에 배포 [SeeSun](https://pypi.org/project/SeeSun/) 
+
+#### `Package architecture` 
+
+- __\_\_init.py\_\___ 
+- __model_config__ 
+  - model.cfg (모델 구조 파일)
+  - model.weights (모델 가중치 파일)
+- __Detector.py__ 
+  - seesunObjectDetector (class , object)
+    - detect (method) : return type =`string` 
+  - seesunTextDetector (class , object)
+    - recognize(method) : return type = `string` 
+- __Speech.py__ 
+  - seesunSpeech (class , object)
+    - tts (method) : return type = `None` (audio played immediately)
+    - stt (method) : return type = `string` 
+
+
+
+#### `Usage` 
+
+__for object detection__ 
+
+```python
+from SeeSun.Detect import seesunObjectDetector
+import cv2
+
+detector = seesunObjectDetector()
+
+my_img = cv2.imread('path/to/image/file')
+detector.detect(my_img)
+```
+
+```shell
+OUT : '현재 앞에는 XX는 3개 , OO은 6대 있습니다.'
+```
+
+---
 
 ​	
+
+__for text detection__ 
+
+```python
+from SeeSun.Detect import seesunTextDetector
+import cv2
+
+detector = seesunTextDetector()
+
+my_img = cv2.imread('path/to/image/file')
+detector.recognize(my_img)
+```
+
+```shell
+OUT : '코로나 3차 대유행으로 인한 지하철 운행시간 조정 안내 ... '
+```
+
+---
+
+​	
+
+__for speech recognition,synthesis__ 
+
+```python
+from SeeSun.Speech import seesunSpeech
+
+speech = seesunSpeech()
+
+speech.tts('input_string')
+speech.stt('path/to/audio_file')
+```
+
+```shell
+OUT : None
+```
+
 
 ---
 
