@@ -42,8 +42,8 @@ Integrative-AI service project from _Deep Learning based AI engineering course_ 
 
 
 <p align="center">
-<img src="README.assets/슬라이드9.PNG" alt="innovation" width="450" />
-<img src="README.assets/슬라이드10.PNG" alt="innovation" width="450" />
+<img src="README.assets/슬라이드9.PNG" alt="innovation" width="415" />
+<img src="README.assets/슬라이드10.PNG" alt="innovation" width="415" />
 </p>
 
 
@@ -56,8 +56,8 @@ Integrative-AI service project from _Deep Learning based AI engineering course_ 
 
 ### d
 <p align="center">
-<img src="README.assets/seesuntext.gif" alt="innovation" width="400" height="234"/>
-<img src="README.assets/seesunobj.gif" alt="innovation" width="400" height="234"/>
+<img src="README.assets/seesuntext.gif" alt="innovation" width="415"/>
+<img src="README.assets/seesunobj.gif" alt="innovation" width="415"/>
 </p>
 
 
